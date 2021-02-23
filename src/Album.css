@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.815);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.3rem;
+  box-shadow: 1px 2px 8px rgba(255, 0, 128, 0.246);
+}
+.Alb {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Cards {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+}
+
+
+img {
+  height: 200px;
+  padding: 0;
+  border-radius: .3rem .3rem 0 0 ;
+  margin-bottom: 0.7rem;
+}
+
+.aTag {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1rem;
+  margin: 1rem;
+}
+a {
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  color: #fff;
+  background-color: rgba(165, 42, 42, 0.322);
+  border-radius: .1rem;
+  padding: 0.5rem 1rem;
+}
+a:hover{
+    background-color: rgb(165, 42, 42);
+}
+
+h4 {
+  color: brown;
+  margin-bottom: 0;
+  padding: 0 1rem;
+}
+h5 {
+  font-size: .7rem;
+  opacity: 0.5;
+  padding: .3rem 1rem;
+}
+h6 {
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+.topHeader {
+  background-color: brown;
+  position: sticky;
+  top: 0;
+}
+
+.topHeader > h1 {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
